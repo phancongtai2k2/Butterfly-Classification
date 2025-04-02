@@ -51,15 +51,15 @@ _Bước 2: Huấn luyện mô hình_
 
   Để huấn luyện mô hình, chạy train.py. Mã nguồn này sẽ:
   
-    Tải bộ dữ liệu.
+  Tải bộ dữ liệu.
     
-    Định nghĩa mô hình CNN.
+  Định nghĩa mô hình CNN.
     
-    Huấn luyện mô hình trên bộ dữ liệu huấn luyện.
+  Huấn luyện mô hình trên bộ dữ liệu huấn luyện.
     
-    Đánh giá mô hình trên bộ dữ liệu xác thực.
+  Đánh giá mô hình trên bộ dữ liệu xác thực.
     
-    Lưu mô hình tốt nhất dưới tên best_model.pth.
+  Lưu mô hình tốt nhất dưới tên best_model.pth.
     
 _Bước 3: Kiểm tra mô hình_
 
