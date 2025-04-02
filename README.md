@@ -5,11 +5,17 @@ Dự án này xây dựng và thử nghiệm mô hình Mạng Nơ-ron Chuyển C
 **Yêu cầu**
 Trước khi chạy dự án, hãy đảm bảo rằng bạn đã cài đặt các thư viện sau:
   Python 3.7 hoặc cao hơn
+  
   PyTorch
+  
   torchvision
+  
   scikit-learn
+  
   matplotlib
+  
   seaborn
+ 
   PIL (Pillow)
 
 Bạn có thể cài đặt các thư viện cần thiết bằng lệnh sau:    pip install torch torchvision scikit-learn matplotlib seaborn pillow
