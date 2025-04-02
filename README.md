@@ -4,6 +4,7 @@ Dự án này xây dựng và thử nghiệm mô hình Mạng Nơ-ron Chuyển C
 
 **Yêu cầu**
 Trước khi chạy dự án, hãy đảm bảo rằng bạn đã cài đặt các thư viện sau:
+
   Python 3.7 hoặc cao hơn
   
   PyTorch
@@ -21,6 +22,7 @@ Trước khi chạy dự án, hãy đảm bảo rằng bạn đã cài đặt c�
 Bạn có thể cài đặt các thư viện cần thiết bằng lệnh sau:    pip install torch torchvision scikit-learn matplotlib seaborn pillow
 
 **Cấu trúc dự án**
+  
   main.py: Điểm vào chính để phân loại hình ảnh. Tải mô hình đã huấn luyện và thực hiện dự đoán trên hình ảnh mới.
   
   model.py: Định nghĩa kiến trúc mô hình CNN.
