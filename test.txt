@@ -1,0 +1,92 @@
+test
+D:\download\Butterfly-Classification-main>"C:/Users/Phong Vu/AppData/Local/Programs/Python/Python312/python.exe" d:/download/Butterfly-Classification-main/Butterfly-Classification-main/test.py
+True
+1
+12.1
+d:\download\Butterfly-Classification-main\Butterfly-Classification-main\test.py:40: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_path))
+Test Accuracy: 74.90566037735849%
+
+Classification Report:
+                           precision    recall  f1-score   support
+
+                   ADONIS       1.00      1.00      1.00         4
+AFRICAN GIANT SWALLOWTAIL       1.00      1.00      1.00         7
+           AMERICAN SNOOT       0.60      0.50      0.55         6
+                    AN 88       1.00      0.88      0.93         8
+                  APPOLLO       0.75      1.00      0.86         3
+                    ATALA       1.00      1.00      1.00         9
+ BANDED ORANGE HELICONIAN       0.86      0.86      0.86         7
+           BANDED PEACOCK       0.67      0.86      0.75         7
+            BECKERS WHITE       0.67      0.40      0.50         5
+         BLACK HAIRSTREAK       0.83      0.71      0.77         7
+              BLUE MORPHO       0.33      0.67      0.44         3
+        BLUE SPOTTED CROW       0.67      0.75      0.71         8
+           BROWN SIPROETA       1.00      0.83      0.91        12
+            CABBAGE WHITE       1.00      0.86      0.92         7
+          CAIRNS BIRDWING       0.75      1.00      0.86         9
+       CHECQUERED SKIPPER       1.00      0.82      0.90        11
+                 CHESTNUT       0.80      0.89      0.84         9
+                CLEOPATRA       0.55      0.67      0.60         9
+       CLODIUS PARNASSIAN       0.50      0.75      0.60         4
+          CLOUDED SULPHUR       0.50      0.30      0.38        10
+        COMMON BANDED AWL       0.25      0.25      0.25         4
+        COMMON WOOD-NYMPH       0.50      0.60      0.55         5
+              COPPER TAIL       0.75      0.30      0.43        10
+                  CRECENT       0.80      0.80      0.80         5
+            CRIMSON PATCH       0.79      0.92      0.85        12
+            DANAID EGGFLY       0.71      0.56      0.62         9
+             EASTERN COMA       0.50      0.50      0.50         6
+     EASTERN DAPPLE WHITE       0.57      1.00      0.73         4
+       EASTERN PINE ELFIN       0.73      1.00      0.84         8
+          ELBOWED PIERROT       0.50      0.67      0.57         3
+              GOLD BANDED       1.00      0.67      0.80         9
+             GREAT EGGFLY       1.00      0.20      0.33         5
+                GREAT JAY       0.78      0.88      0.82         8
+ GREEN CELLED CATTLEHEART       0.80      0.67      0.73         6
+          GREY HAIRSTREAK       0.33      0.67      0.44         3
+            INDRA SWALLOW       0.75      0.43      0.55         7
+          IPHICLUS SISTER       1.00      0.86      0.92         7
+                    JULIA       0.83      0.83      0.83         6
+             LARGE MARBLE       0.50      0.50      0.50         4
+                MALACHITE       1.00      0.62      0.77         8
+         MANGROVE SKIPPER       0.42      0.83      0.56         6
+                   MESTRA       0.82      0.90      0.86        10
+                METALMARK       0.50      0.50      0.50         4
+   MILBERTS TORTOISESHELL       0.75      0.67      0.71         9
+                  MONARCH       0.25      0.50      0.33         2
+           MOURNING CLOAK       1.00      0.88      0.93         8
+           ORANGE OAKLEAF       0.50      0.50      0.50         4
+               ORANGE TIP       0.60      0.60      0.60         5
+          ORCHARD SWALLOW       1.00      1.00      1.00         7
+             PAINTED LADY       0.75      0.86      0.80         7
+               PAPER KITE       0.77      1.00      0.87        10
+                  PEACOCK       1.00      1.00      1.00         8
+               PINE WHITE       0.89      0.80      0.84        10
+         PIPEVINE SWALLOW       0.60      1.00      0.75         6
+                 POPINJAY       0.50      0.50      0.50         4
+        PURPLE HAIRSTREAK       0.50      0.43      0.46         7
+          PURPLISH COPPER       0.78      0.70      0.74        10
+            QUESTION MARK       0.50      0.29      0.36         7
+              RED ADMIRAL       0.50      1.00      0.67         4
+              RED CRACKER       1.00      0.44      0.62         9
+              RED POSTMAN       0.83      0.91      0.87        11
+       RED SPOTTED PURPLE       1.00      0.86      0.92         7
+           SCARCE SWALLOW       0.90      1.00      0.95         9
+      SILVER SPOT SKIPPER       0.83      0.62      0.71         8
+            SLEEPY ORANGE       0.67      0.67      0.67        12
+                SOOTYWING       0.86      0.75      0.80         8
+         SOUTHERN DOGFACE       0.33      0.50      0.40         6
+           STRAITED QUEEN       0.88      1.00      0.93         7
+        TROPICAL LEAFWING       0.75      0.50      0.60         6
+       TWO BARRED FLASHER       0.78      1.00      0.88         7
+                   ULYSES       0.89      0.73      0.80        11
+                  VICEROY       0.78      0.88      0.82         8
+               WOOD SATYR       0.75      0.75      0.75         4
+      YELLOW SWALLOW TAIL       1.00      0.86      0.92         7
+          ZEBRA LONG WING       1.00      1.00      1.00         8
+
+                 accuracy                           0.75       530
+                macro avg       0.74      0.73      0.72       530
+             weighted avg       0.78      0.75      0.75       530
+
